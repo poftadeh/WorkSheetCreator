@@ -17,7 +17,6 @@ body {
     background-image: url('../img/cmsback.png');
     background-repeat: no-repeat;
     background-size: contain;
-    border: 2px solid green;
 }
 
 .row p {
