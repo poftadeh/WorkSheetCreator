@@ -17,6 +17,7 @@ body {
     background-image: url('../img/cmsback.png');
     background-repeat: no-repeat;
     background-size: contain;
+    border: 2px solid green;
 }
 
 .row p {
@@ -141,7 +142,7 @@ span~span {
 }
 
 #footer p {
-    margin: 0.2in auto;
+    margin: 0.2in auto 0 auto;
     font-size: 16px;
     padding: 0;
     display: block;
