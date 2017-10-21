@@ -91,9 +91,9 @@ h2 span ~ span {
 }
 
 #piece {
-    width: 1.65in;
-    height: 1.69in;
-    margin: 0;
+    width: 1.5in;
+    height: 1.54in;
+    margin: 3px;
     padding: 0;
 }
 

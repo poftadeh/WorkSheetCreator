@@ -19,7 +19,7 @@
         <img id="logo" src="./img/logo.png" alt="logo">
         <div id="titles">
             <h2>CHESS WITH MR. S</h2>
-            <h1>HOMEWORK SHEET NO.1</h1>
+            <h1>HOMEWORK SHEET</h1>
             <h2>Level: <span>Pawn</span> | Topic: <span>Pawn Moves</span></h2>
         </div>
         <img id="piece" src="./img/chesspieces/wikipedia/wP.png" alt="piece">
@@ -86,7 +86,12 @@
     </div>
     <script src="./js/jquery-1.10.1.min.js"></script>
     <script src="./js/chessboard-0.3.0.js"></script>
+    <script src="./js/puzzles.js"></script>
     <script src="./js/populateBoards.js"></script>
+    <script>generateSheet();
+        document.getElementById('topbar').addEventListener('click', generateSheet);
+    
+    </script>
 </body>
 
 </html>
