@@ -13,7 +13,7 @@ body {
     height: 11in;
     width: 8.5in;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     background-image: url('../img/cmsback.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -28,9 +28,9 @@ body {
 }
 
 #topbar {
-    height: 0.3in;
+    height: 0.41in;
     background-color: #FFD053;
-    margin-bottom: 0.5in;
+    margin-bottom: 0.38in;
 }
 
 #topbar~* {
@@ -40,23 +40,24 @@ body {
 #header {
     height: 1.5in;
     display: flex;
-    border-bottom: 1px solid grey;
+    border-bottom: 0.25px solid grey;
     align-items: center;
+    justify-content: center;
 }
 
-#header>* {
+#header > * {
     margin-top: .3in;
 }
 
 #logo {
     margin: 0;
     padding: 0;
-    height: 1.29in;
-    width: 0.86in;
+    height: 1.39in;
+    width: 0.96in;
 }
 
 #titles {
-    width: 6in;
+    width: 5in;
     margin: 0;
     padding: 0;
 }
@@ -73,12 +74,12 @@ h3 {
 h2:first-of-type {
     margin-top: 0.09in;
     margin-bottom: 0;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 h1 {
     margin-bottom: 0.08in;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 700;
 }
 
@@ -92,8 +93,8 @@ h2 span ~ span {
 }
 
 #piece {
-    width: 1.5in;
-    height: 1.54in;
+    width: 1.55in;
+    height: 1.59in;
     margin: 5px;
     padding: 0;
 }
@@ -129,7 +130,7 @@ span~span {
 }
 
 #footer {
-    border-top: 1px solid grey;
+    border-top: 0.25px solid grey;
     height: 0.45in;
     display: flex;
     padding: 0;
