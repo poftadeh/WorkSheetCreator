@@ -336,42 +336,42 @@ var puzzles = [{
     },
     {
         "Level": "Knight",
-        "Module": "CheckMate in One",
+        "Module": "Checkmate in One",
         "FEN": "3Brrn1/7p/4kb2/1R2np2/2P1pPpP/1K2PNP1/3Q4/7R w - -",
         "Question": "Mate the black king in one move. Try to identify the escape squares we are trying to take away.",
         "Answer": "Qd5++"
     },
     {
         "Level": "Knight",
-        "Module": "CheckMate in One",
+        "Module": "Checkmate in One",
         "FEN": "rn1Q1b2/1p1b1p2/2k1p3/p1p1P1pr/P5Pp/2N5/RP2BP1P/1NB1K1R1 w - -",
         "Question": "Now checkmate using a minor piece.",
         "Answer": "Bb5++"
     },
     {
         "Level": "Knight",
-        "Module": "CheckMate in One",
+        "Module": "Checkmate in One",
         "FEN": "2b1n2r/r1pqBppp/p1k2b2/2Pp3P/p1N2P2/NP1P2PR/R3P3/3K1B2 w - -",
         "Question": "Try checkmating with a knight. These are often easy to miss over the board.",
         "Answer": "Na5++"
     },
     {
         "Level": "Knight",
-        "Module": "CheckMate in One",
+        "Module": "Checkmate in One",
         "FEN": "3r2n1/7r/bp1bp3/3pPkp1/2p2P1P/p3pK2/P1P3B1/NQ5R w - -",
         "Question": "Sometimes a piece moves out of the way to let another piece deliver a checkmate. Find that move.",
         "Answer": "c3++"
     },
     {
         "Level": "Knight",
-        "Module": "CheckMate in One",
+        "Module": "Checkmate in One",
         "FEN": "3Q1nn1/B2b4/2rkp3/7R/1KP3PP/N4P2/3P3R/8 w - -",
         "Question": "How can we capture a piece and checkmate in the same move?",
         "Answer": "Qxf8++"
     },
     {
         "Level": "Knight",
-        "Module": "CheckMate in One",
+        "Module": "Checkmate in One",
         "FEN": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQkq -",
         "Question": "Find this special type of mate is called a \"smothered mate\". Remember this for your games!",
         "Answer": "Nd6++"
@@ -546,42 +546,42 @@ var puzzles = [{
     },
     {
         "Level": "Rook",
-        "Module": "Mate in Two",
+        "Module": "Checkmate in Two",
         "FEN": "1k6/8/2K5/3R4/8/8/8/8 w - -",
         "Question": "We forced black's king onto the edge of the board in this endgame. Now checkmate black in two moves.",
         "Answer": "1. Ra5, Kb8 2.Ra8"
     },
     {
         "Level": "Rook",
-        "Module": "Mate in Two",
+        "Module": "Checkmate in Two",
         "FEN": "2r2r1k/6pp/pqbpQb1N/1p2n3/4P3/2P1B3/PP3PPP/R4RK1 w - -",
         "Question": "Should we take black's queen on b5, or do we have a better move here?",
         "Answer": "Qg8+"
     },
     {
         "Level": "Rook",
-        "Module": "Mate in Two",
+        "Module": "Checkmate in Two",
         "FEN": "r2qkbnr/ppp2ppp/2np4/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 2",
         "Question": "We just lost a queen after black played Bxd1. Punish black with two moves leading to a checkmate.",
         "Answer": "Bxf7+, Ke7, Nd5++"
     },
     {
         "Level": "Rook",
-        "Module": "Mate in Two",
+        "Module": "Checkmate in Two",
         "FEN": "r4rk1/pp4pp/2p3n1/3p2N1/2P2PK1/6P1/PP5q/R1BQ1RN1 b - -",
         "Question": "This one is from a famous game played by Najdorf. Find the checkmate in two for black. (Hint: it involves a sacrifice).",
         "Answer": ""
     },
     {
         "Level": "Rook",
-        "Module": "Mate in Two",
+        "Module": "Checkmate in Two",
         "FEN": "1k6/8/1K6/5B2/1N6/8/8/8 w - - 0 1",
         "Question": "Checkmate black in two moves in this rare bishop and knight ending.",
         "Answer": "1. Na6+ Ka8 2. Be4++"
     },
     {
         "Level": "Rook",
-        "Module": "Mate in Two",
+        "Module": "Checkmate in Two",
         "FEN": "kbK5/pp6/1P6/8/8/8/8/R7 w - - 0 1",
         "Question": "This is tricky mate in two puzzle created by Paul Morphy at the age of ten. What's white's best move in this position?",
         "Answer": "Ra6!"

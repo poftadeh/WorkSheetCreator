@@ -11,7 +11,7 @@ pieceDict = {
 }
 
 function generateSheet() {
-    var puzzlesCreated = 0;
+
 
     document.getElementById('piece').src = './img/chesspieces/wikipedia/' + pieceDict[puzzles[numPuzzles].Level];
     document.querySelector('h2 span:nth-of-type(1)').textContent = puzzles[numPuzzles].Level;
@@ -19,7 +19,7 @@ function generateSheet() {
 
     for (var i = 0; i < boards.length; i++) {
         try {
-            ChessBoard('board' + (puzzlesCreated + 1), {
+            ChessBoard('board' + ((numPuzzles % boards.length) + 1), {
                 position: puzzles[numPuzzles].FEN,
                 showNotation: false,
             });
@@ -27,8 +27,11 @@ function generateSheet() {
             alert("no more puzzles!");
         }
         ps[i].textContent = puzzles[numPuzzles].Question;
-        puzzlesCreated++;
         numPuzzles++;
+    }
+
+    if (numPuzzles === puzzles.length) {
+        numPuzzles = 0;
     }
 
 }

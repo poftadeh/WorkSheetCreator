@@ -41,6 +41,7 @@ body {
     height: 1.5in;
     display: flex;
     border-bottom: 1px solid grey;
+    align-items: center;
 }
 
 #header>* {
@@ -93,7 +94,7 @@ h2 span ~ span {
 #piece {
     width: 1.5in;
     height: 1.54in;
-    margin: 3px;
+    margin: 5px;
     padding: 0;
 }
 
@@ -129,19 +130,23 @@ span~span {
 
 #footer {
     border-top: 1px solid grey;
-    height: 0.7in;
+    height: 0.45in;
     display: flex;
     padding: 0;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #footer span {
     font-weight: 700;
     margin: 0;
     padding: 0;
+
 }
 
 #footer p {
-    margin: 0.2in auto 0 auto;
+
     font-size: 16px;
     padding: 0;
     display: block;
