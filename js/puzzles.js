@@ -51,7 +51,7 @@ var puzzles = [{
         "Level": "Pawn",
         "Module": "Rook Moves",
         "FEN": "7R/8/8/3r4/8/8/8/8 w - -",
-        "Question": "Which rook has more squares it can travel to? Circle the answer: (White Rook/ Black Rook/Both the same)",
+        "Question": "Which rook has more squares it can travel to? The white rook, the black rook, or are they both equal?",
         "Answer": "Both the same"
     },
     {
@@ -317,7 +317,7 @@ var puzzles = [{
         "Level": "Knight",
         "Module": "Check",
         "FEN": "5B2/7N/4k3/8/3P4/5P2/4B1P1/RK5Q w - -",
-        "Question": "There are five ways to check the black king. Can you find them all?",
+        "Question": "There are six ways to check the black king. Can you find them all?",
         "Answer": "Ra5+, Nc5+, d5+, Bc4+, Qh3+"
     },
     {
@@ -387,7 +387,7 @@ var puzzles = [{
         "Level": "Knight",
         "Module": "Chess Notation",
         "FEN": "rn1r2k1/ppp2ppp/8/3P3q/5pb1/2PP1QP1/P1P1N2P/R1B1K2R w KQkq -",
-        "Question": "Play out this game by Paul Morphy then circle the pieces that are out of place on this board.\n1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Nf6 5.Nc3 Bb4 6.d3 Nxd5 7.exd5 O-O 8.Qf3 Re8+ 9.Ne2 Bxc3+ 10.bxc3 Qh4+ 11.g3 Bg4",
+        "Question": "Play out this game by Paul Morphy then circle the pieces that are out of place on this board: \n1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Nf6 5.Nc3 Bb4 6.d3 Nxd5 7.exd5 O-O 8.Qf3 Re8+ 9.Ne2 Bxc3+ 10.bxc3 Qh4+ 11.g3 Bg4",
         "Answer": "Rd8, Qh5"
     },
     {
@@ -401,14 +401,14 @@ var puzzles = [{
         "Level": "Knight",
         "Module": "Chess Notation",
         "FEN": "rnbqkb1r/pp3ppp/2p2n2/3pp3/2PPP3/2N2N2/PP3PPP/R1BQKB1R w KQkq -",
-        "Question": "Circle the piece that moves with the notation exd5 that captures a pawn.",
+        "Question": "Circle the piece that moves with the notation exd5.",
         "Answer": "pawn on e4"
     },
     {
         "Level": "Knight",
         "Module": "Chess Notation",
         "FEN": "8/R7/5k2/8/r2R4/8/R7/5K2 w - -",
-        "Question": "There are many rooks, but circle the one that moves with the notation Rdxa4. It's important to tell rooks apart for when you record your tournament games.",
+        "Question": "There are many rooks, but circle the one that moves with the notation Rdxa4. It's important to tell similar pieces apart when you record your tournament games.",
         "Answer": "rook on d4"
     },
     {
@@ -555,7 +555,7 @@ var puzzles = [{
         "Level": "Rook",
         "Module": "Checkmate in Two",
         "FEN": "2r2r1k/6pp/pqbpQb1N/1p2n3/4P3/2P1B3/PP3PPP/R4RK1 w - -",
-        "Question": "Should we take black's queen on b5, or do we have a better move here?",
+        "Question": "Should we take black's queen on b6, or do we have a better move here?",
         "Answer": "Qg8+"
     },
     {

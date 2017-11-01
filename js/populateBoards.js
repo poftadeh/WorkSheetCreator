@@ -21,7 +21,7 @@ function generateSheet() {
         try {
             ChessBoard('board' + ((numPuzzles % boards.length) + 1), {
                 position: puzzles[numPuzzles].FEN,
-                showNotation: false,
+                //showNotation: false,
             });
         } catch(err) {
             alert("no more puzzles!");

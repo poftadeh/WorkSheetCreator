@@ -17,6 +17,7 @@ body {
     background-image: url('../img/cmsback.png');
     background-repeat: no-repeat;
     background-size: contain;
+
 }
 
 .row p {
@@ -25,6 +26,7 @@ body {
     width: 1.5in;
     height: 1.75in;
     font-weight: 400;
+    font-size: 14.5px;
 }
 
 #topbar {
@@ -100,7 +102,8 @@ h2 span ~ span {
 }
 
 #content {
-    margin-top: 0.6in;
+  margin-top: 0.3in;
+  margin-bottom: 80px;
 }
 
 span {
@@ -109,7 +112,7 @@ span {
 
 .row {
     display: flex;
-    margin-bottom: 0.55in;
+    margin-bottom: 0.58in;
 }
 
 .row span {
@@ -118,7 +121,7 @@ span {
 }
 
 span~span {
-    margin-left: 0.4in;
+    margin-left: 0.22in;
 }
 
 .row:last-of-type {
@@ -127,6 +130,7 @@ span~span {
 
 .chessboard {
     width: 2.3in;
+    margin-left: 15px;
 }
 
 #footer {
@@ -151,4 +155,26 @@ span~span {
     font-size: 16px;
     padding: 0;
     display: block;
+}
+
+.white-to-move:after {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  border: 2px solid #769946;
+  transform: translate(-18px, 2px);
+  border-radius: 50%;
+  background-color: white;
+}
+
+.black-to-move:after {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  border: 2px solid #769946;
+  transform: translate(-18px, 2px);
+  border-radius: 50%;
+  background-color: #769946;
 }

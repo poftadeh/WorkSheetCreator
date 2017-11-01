@@ -60,12 +60,14 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   position: absolute;
+  color:  #769946;
+  font-weight: 600;
 }
 .alpha-d2270 {
-  bottom: 1px;
-  right: 3px;
+  bottom: -22px;
+  right: 9px;
 }
 .numeric-fc462 {
-  top: 2px;
-  left: 2px;
+  top: 4px;
+  left: -15px;
 }
