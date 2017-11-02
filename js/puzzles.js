@@ -8,7 +8,7 @@ var puzzles = [{
     {
         "Level": "Pawn",
         "Module": "Pawn Moves",
-        "FEN": "8/pp2p3/1p2Pp2/8/8/6p1/6P1/8 w - -",
+        "FEN": "8/pp2p3/1p2Pp2/8/8/6p1/6P1/8 b - -",
         "Question": "Now circle the squares each black pawn can move to. Keep the same principles as the previous question in mind.",
         "Answer": "a6, a5, b5, f5"
     },
@@ -30,7 +30,7 @@ var puzzles = [{
         "Level": "Pawn",
         "Module": "Pawn Moves",
         "FEN": "8/8/8/8/8/7P/P7/8 w - -",
-        "Question": "Let's imagine that these two pawns are having race. Who can get to the end faster? Circle the Answer:  (Left Pawn/Right Pawn/It's a tie.)",
+        "Question": "Let's imagine that these two pawns are having race. Who can get to the end faster? The left pawn, the right pawn, or is it a tie?",
         "Answer": "Tie."
     },
     {
@@ -50,7 +50,7 @@ var puzzles = [{
     {
         "Level": "Pawn",
         "Module": "Rook Moves",
-        "FEN": "7R/8/8/3r4/8/8/8/8 w - -",
+        "FEN": "7R/8/8/3r4/8/8/8/8 b - -",
         "Question": "Which rook has more squares it can travel to? The white rook, the black rook, or are they both equal?",
         "Answer": "Both the same"
     },
@@ -71,8 +71,8 @@ var puzzles = [{
     {
         "Level": "Pawn",
         "Module": "Rook Moves",
-        "FEN": "r7/8/P7/8/R7/8/8/8 w - -",
-        "Question": "Which of white's pieces are we allowed to capture with our black rook? Circle the answer: (Only the Pawn/Only the Rook/Both)",
+        "FEN": "r7/8/P7/8/R7/8/8/8 b - -",
+        "Question": "Which of white's pieces are we allowed to capture with our black rook? Only the Pawn, only the Rook, or both?",
         "Answer": "pawn"
     },
     {
@@ -106,7 +106,7 @@ var puzzles = [{
     {
         "Level": "Pawn",
         "Module": "Bishop Moves",
-        "FEN": "r6r/pbpp1pbp/1p4p1/4p3/8/1P2P2P/PBPPBPP1/R6R w - -",
+        "FEN": "r6r/pbpp1pbp/1p4p1/4p3/8/1P2P2P/PBPPBPP1/R6R b - -",
         "Question": "Circle the \"fianchettoed\" bishops in this diagram from both sides. What is special about this type of bishop?",
         "Answer": "b7, g7"
     },
@@ -141,21 +141,21 @@ var puzzles = [{
     {
         "Level": "Pawn",
         "Module": "Knight Moves",
-        "FEN": "7r/8/8/8/8/8/8/N7 w - -",
+        "FEN": "7R/8/8/8/8/8/8/n7 b - -",
         "Question": "Draw a path that allows the knight to capture the rook. This can be tricky, so try it on a real board first.",
         "Answer": "Nc2, Na3, Nc4, Ne5, Ng6, Nxh8"
     },
     {
         "Level": "Pawn",
         "Module": "Knight Moves",
-        "FEN": "8/2PPPpP1/2r3r1/2R1n1R1/2r3r1/2PpPpP1/8/8 w - -",
+        "FEN": "8/2PPPpP1/2r3r1/2R1n1R1/2r3r1/2PpPpP1/8/8 b - -",
         "Question": "What is the only square this knight is allowed to move to?",
         "Answer": "Nxd7"
     },
     {
         "Level": "Pawn",
         "Module": "Knight Moves",
-        "FEN": "8/R1R1R1R1/3B3P/8/3P3P/PBP1P1P1/8/8 w - -",
+        "FEN": "8/R1R1R1R1/3B3P/8/3P3P/PBP1P1P1/8/8 b - -",
         "Question": "Imagine that we had to place a knight on this board. On what square would that knight attack the most white pieces?",
         "Answer": "f5"
     },
@@ -198,13 +198,13 @@ var puzzles = [{
         "Level": "Pawn",
         "Module": "Queen Moves",
         "FEN": "4r3/2p5/p5b1/8/r7/2b2n2/8/8 w - -",
-        "Question": "Visualize: on what square could we place a queen on this board so that it attacks every black piece?",
+        "Question": "Visualize: on what square could we place a white queen on this board so that it attacks every black piece?",
         "Answer": "c6"
     },
     {
         "Level": "Pawn",
         "Module": "Queen Moves",
-        "FEN": "6q1/8/2q5/q7/7q/2q5/4q3/8 w - -",
+        "FEN": "6q1/8/2q5/q7/7q/2q5/4q3/8 b - -",
         "Question": "Circle the square that is not being attacked by a black queen.",
         "Answer": "b1"
     },
@@ -212,7 +212,7 @@ var puzzles = [{
         "Level": "Pawn",
         "Module": "King Moves",
         "FEN": "8/8/8/6k1/5n2/4K3/8/8 w - -",
-        "Question": "Can the white king capture the black knight? Explain your answer using king move concepts.",
+        "Question": "Can the white king capture the black knight? Explain your answer using king move principles.",
         "Answer": "No."
     },
     {
@@ -260,7 +260,7 @@ var puzzles = [{
     {
         "Level": "Knight",
         "Module": "Impossible Positions",
-        "FEN": "r1bqkb1r/pppp1ppp/2n2n2/4p1B1/4P3/2N2N2/PPPP1PPP/R2QKB1R w KQkq -",
+        "FEN": "r1bqkb1r/pppp1ppp/2n2n2/4p1B1/4P3/2N2N2/PPPP1PPP/R2QKB1R b KQkq -",
         "Question": "Why is this position impossible?",
         "Answer": "Bishop"
     },
@@ -274,14 +274,14 @@ var puzzles = [{
     {
         "Level": "Knight",
         "Module": "Impossible Positions",
-        "FEN": "r1bq1rk1/p1p2ppp/2p2n2/p2pp3/1bPP4/P1N2N2/1P2PPPP/R1BQ1RK1 w KQkq -",
+        "FEN": "r1bq1rk1/p1p2ppp/2p2n2/p2pp3/1bPP4/P1N2N2/1P2PPPP/R1BQ1RK1 b KQkq -",
         "Question": "Explain why we could never get this position in a real game. ",
         "Answer": "Extra Pawn on black side."
     },
     {
         "Level": "Knight",
         "Module": "Impossible Positions",
-        "FEN": "rnb1k2r/ppp1qppp/5n2/1B6/8/P1P2N2/5PPP/R1BQK2R w KQkq -",
+        "FEN": "rnb1k2r/ppp1qppp/5n2/1B6/8/P1P2N2/5PPP/R1BQK2R b KQkq -",
         "Question": "Examine the pieces and describe what makes this setup impossible.",
         "Answer": "Both kings in check."
     },
@@ -365,21 +365,21 @@ var puzzles = [{
     {
         "Level": "Knight",
         "Module": "Checkmate in One",
-        "FEN": "3Q1nn1/B2b4/2rkp3/7R/1KP3PP/N4P2/3P3R/8 w - -",
-        "Question": "How can we capture a piece and checkmate in the same move?",
+        "FEN": "3Q1b2/pr1b3p/1Bpkn1R1/2Nn3P/2PR1PP1/1K1P4/4r3/8 w - -",
+        "Question": "Checkmate the black king by capturing a piece. (Bonus: find another capture that results in checkmate)",
         "Answer": "Qxf8++"
     },
     {
         "Level": "Knight",
         "Module": "Checkmate in One",
         "FEN": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQkq -",
-        "Question": "Find this special type of mate is called a \"smothered mate\". Remember this for your games!",
+        "Question": "Find this special type of mate called a \"smothered mate\". Remember this for your games!",
         "Answer": "Nd6++"
     },
     {
         "Level": "Knight",
         "Module": "Chess Notation",
-        "FEN": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq -",
+        "FEN": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR b KQkq -",
         "Question": "After the moves 1. e4 e5 2. Nf3 Nc6 3. Bc4, do we get this board position? If not, circle the piece on the wrong square.",
         "Answer": ""
     },
@@ -393,7 +393,7 @@ var puzzles = [{
     {
         "Level": "Knight",
         "Module": "Chess Notation",
-        "FEN": "r1bB1rk1/pppn1pbp/6N1/8/2P3n1/5N2/PP3PPP/R2QKB1R w KQkq -",
+        "FEN": "r1bB1rk1/pppn1pbp/6N1/8/2P3n1/5N2/PP3PPP/R2QKB1R b KQkq -",
         "Question": "Play out this game by Bobby Fischer then circle the  pieces that are out of place: 1.d4 g6 2.c4 Nf6 3.Nc3 Bg7 4.e4 O-O 5.Bg5 d6 6.Nf3 Nbd7 7.e5 dxe5 8.dxe5 Ng4 9.Nd5 Ngxe5 10.Nxe7+ Kh8 11.Nxg6+ hxg6 12.Bxd8",
         "Answer": "Kg8, Ng4"
     },
@@ -477,7 +477,7 @@ var puzzles = [{
     {
         "Level": "Bishop",
         "Module": "Scholar's Mate",
-        "FEN": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq -",
+        "FEN": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR b KQkq -",
         "Question": "Defend against scholar's mate in this position as black.",
         "Answer": "Nf6/Qe7/Qf6"
     },
@@ -498,7 +498,7 @@ var puzzles = [{
     {
         "Level": "Bishop",
         "Module": "Scholar's Mate",
-        "FEN": "rnbqkb1r/pppp1ppp/8/4p2Q/2B1n3/2N5/PPPP1PPP/R1B1K1NR b KQkq - 1 4",
+        "FEN": "rnbqkb1r/ppp2ppp/8/3Bp2Q/4n3/2N5/PPPP1PPP/R1B1K1NR b KQkq - 0 5",
         "Question": "Prevent mate as black without also losing the knight.",
         "Answer": "Nd6"
     },
@@ -527,7 +527,7 @@ var puzzles = [{
         "Level": "Bishop",
         "Module": "ABC's of the opening",
         "FEN": "r1bqk2r/pppp1ppp/2n2n2/6N1/1bB1P3/8/PB3PPP/RN1Q1RK1 b kq - 6 8",
-        "Question": "White played Ng5 attacking our position. How should we respond according to the ABC's?",
+        "Question": "White played Ng5 attacking our pawn. How should we respond according to the ABC's?",
         "Answer": "0-0"
     },
     {
@@ -596,7 +596,7 @@ var puzzles = [{
     {
         "Level": "Rook",
         "Module": "Magic if",
-        "FEN": "r3k2r/pp1qn1pp/5p2/3p4/8/8/PP2QPPP/2R1R1K1 b - -",
+        "FEN": "r3k2r/pp1qn1pp/5p2/3p4/8/8/PP2QPPP/2R1R1K1 w - -",
         "Question": "Notice the pressure on black's e7 square. Where would you place a knight on this board to improve white's attack?",
         "Answer": "Nf5"
     },
@@ -611,69 +611,69 @@ var puzzles = [{
         "Level": "Rook",
         "Module": "Magic if",
         "FEN": "5r1k/pp4pp/2p5/4q3/4P3/8/PPP2PPP/3R2K1 w - -",
-        "Question": "Put a piece anywhere on this board that will give white the biggest advantage.",
+        "Question": "Put a minor piece anywhere on this board that will give white the biggest advantage.",
         "Answer": "knight on f7."
     },
     {
         "Level": "Rook",
         "Module": "Magic if",
-        "FEN": "3r4/p2q1pkp/3n1np1/8/8/1N2P3/P2BQPPP/R5K1 b - -",
+        "FEN": "3r4/p2q1pkp/3n1np1/8/8/1N2P3/P2BQPPP/R5K1 w - -",
         "Question": "Find the best place to put a white pawn on this board. Think back to your tactical lessons.",
         "Answer": "e5"
     },
     {
         "Level": "Rook",
         "Module": "Magic if",
-        "FEN": "3r2k1/p4ppp/8/8/8/2R1P3/P3QPPP/6K1 w - -",
-        "Question": "Of course d1 would be the best place to put a black queen, but what would be the next best square?  (Hint: look for a double or triple attack)",
+        "FEN": "3r2k1/p4ppp/8/8/8/2R1P3/P3QPPP/6K1 b - -",
+        "Question": "This is from a famous game by Capablanca. Of course d1 would be the best place to put a black queen, but what would be the next best square?  (Hint: look for a double or triple attack)",
         "Answer": "Qc2"
     },
     {
         Level: 'Knight',
         Module: 'Stalemate',
-        FEN: '8/8/8/8/8/1k6/2q5/K7',
+        FEN: '8/8/8/8/8/1k6/2q5/K7 w - -',
         Question: 'White to play.  Is this checkmate, stalemate, or neither?',
         Answer: ''
     }, {
         Level: 'Knight',
         Module: 'Stalemate',
-        FEN: '4R1k1/5pp1/p6p/1p6/3P4/2P2P2/rr3PPP/6K1',
+        FEN: '4R1k1/5pp1/p6p/1p6/3P4/2P2P2/rr3PPP/6K1 b - -',
         Question: 'Black to play.  Is this checkmate, stalemate, or neither?',
         Answer: ''
     }, {
         Level: 'Knight',
         Module: 'Stalemate',
-        FEN: 'rnb1k1nr/ppp2ppp/8/8/8/2N3b1/PPPPP3/R1BQKBNR',
+        FEN: 'rnb1k1nr/ppp2ppp/8/8/8/2N3b1/PPPPP3/R1BQKBNR w - -',
         Question: 'White to play.  Is this checkmate, stalemate, or neither?',
         Answer: ''
     }, {
         Level: 'Knight',
         Module: 'Stalemate',
-        FEN: 'rnbqk2r/pppp1Qpp/5n2/2b1p3/2B1P3/8/PPPP1PPP/RNB1K1NR',
+        FEN: 'rnbqk2r/pppp1Qpp/5n2/2b1p3/2B1P3/8/PPPP1PPP/RNB1K1NR b - -',
         Question: 'Black to play.  Is this checkmate, stalemate, or neither?',
         Answer: ''
     }, {
         Level: 'Knight',
         Module: 'Stalemate',
-        FEN: '8/8/8/8/8/1k6/6r1/K7',
+        FEN: '8/8/8/8/8/1k6/6r1/K7 b - -',
         Question: 'Black to play.  Find a move that creates stalemate.  Find a move that creates checkmate.',
         Answer: ''
     }, {
         Level: 'Knight',
         Module: 'Stalemate',
-        FEN: '4k3/8/5n2/8/8/4K1B1/8/8',
+        FEN: '4k3/8/5n2/8/8/4K1B1/8/8 w - -',
         Question: 'White to play.  Who should win this position?',
         Answer: ''
     }, {
         Level: 'Knight',
         Module: 'Castling',
-        FEN: 'r3k2r/pbp1ppbp/1pnq1np1/3p4/3P4/2NQPN2/PPPBBPPP/1R1K1R2',
+        FEN: 'r3k2r/pbp1ppbp/1pnq1np1/3p4/3P4/2NQPN2/PPPBBPPP/1R1K1R2 w - -',
         Question: 'Which side has their king and rooks properly positioned for castling?',
         Answer: ''
     }, {
         Level: 'Knight',
         Module: 'Castling',
-        FEN: 'rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R',
+        FEN: 'rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w - -',
         Question: 'Which player(s) can castle in this position?  Which side can they castle on?',
         Answer: ''
     }, {
@@ -691,13 +691,13 @@ var puzzles = [{
     }, {
         Level: 'Knight',
         Module: 'Castling',
-        FEN: 'rnbq1rk1/ppp2ppp/8/3p4/3P1B2/2N3P1/PPPQ1PBP/R3K1NR',
+        FEN: 'rnbq1rk1/ppp2ppp/8/3p4/3P1B2/2N3P1/PPPQ1PBP/R3K1NR b - -',
         Question: 'Black to play.  What move(s) can black make to prevent white from castling queen side next turn?',
         Answer: ''
     }, {
         Level: 'Knight',
         Module: 'Castling',
-        FEN: 'rnbq3r/pppp1kpp/4p3/2b5/4n3/1P3N2/P1PP1PPP/RNBQ1RK1',
+        FEN: 'rnbq3r/pppp1kpp/4p3/2b5/4n3/1P3N2/P1PP1PPP/RNBQ1RK1 b - -',
         Question: 'Black to play.  If black moves their king back to e8, can they castle king-side later in the game?',
         Answer: ''
     }, {
@@ -709,13 +709,13 @@ var puzzles = [{
     }, {
         Level: 'Knight',
         Module: 'En Passant',
-        FEN: 'r1bqkbnr/pp2pppp/2n5/2p5/2Pp4/4PNP1/PP1P1PBP/RNBQK2R',
+        FEN: 'r1bqkbnr/pp2pppp/2n5/2p5/2Pp4/4PNP1/PP1P1PBP/RNBQK2R b - -',
         Question: 'Black to play.  White has just played c2 - c4.  List all the moves that the black pawn on d4 can make',
         Answer: ''
     }, {
         Level: 'Knight',
         Module: 'En Passant',
-        FEN: 'r1bqkbnr/pppp1ppp/2n1p3/4P3/3P4/8/PPP2PPP/RNBQKBNR',
+        FEN: 'r1bqkbnr/pppp1ppp/2n1p3/4P3/3P4/8/PPP2PPP/RNBQKBNR b - -',
         Question: 'Black to play.  What move(s) can black make that would allow white to capture en-passant?',
         Answer: ''
     }, {
@@ -733,19 +733,19 @@ var puzzles = [{
     }, {
         Level: 'Knight',
         Module: 'En Passant',
-        FEN: 'rnbqkbnr/ppp2ppp/8/3p4/3Pp3/8/PPP1QPPP/RNB1KBNR',
+        FEN: 'rnbqkbnr/ppp2ppp/8/3p4/3Pp3/8/PPP1QPPP/RNB1KBNR b - -',
         Question: 'Black to play.  White just moved the pawn from d2 - d4.  Can the black pawn on e4 capture en-passant?',
         Answer: ''
     }, {
         Level: 'Bishop',
         Module: 'Piece Value',
-        FEN: '6r1/6rp/4k3/2nnpp2/2B5/5Q2/5PP1/4KR2',
+        FEN: '6r1/6rp/4k3/2nnpp2/2B5/5Q2/5PP1/4KR2 b - -',
         Question: 'How many points in material does white have?  How many points in material does black have?',
         Answer: ''
     }, {
         Level: 'Bishop',
         Module: 'Piece Value',
-        FEN: 'r1bq1b1r/ppp1n1pp/4k3/3n2B1/2B5/5Q2/PpP2PPP/1K1R3R',
+        FEN: 'r1bq1b1r/ppp1n1pp/4k3/3n2B1/2B5/5Q2/PpP2PPP/1K1R3R b - -',
         Question: 'How many points in material does white have?  How many points in material does black have?',
         Answer: ''
     }, {
@@ -769,13 +769,13 @@ var puzzles = [{
     }, {
         Level: 'Bishop',
         Module: 'Piece Value',
-        FEN: 'rnb1k2r/pppp1ppp/8/2b1p3/2B1P1nq/2N4P/PPPPNPP1/R1BQ1RK1',
+        FEN: 'rnb1k2r/pppp1ppp/8/2b1p3/2B1P1nq/2N4P/PPPPNPP1/R1BQ1RK1 b - -',
         Question: 'Black to play.  Can black make a positive capture on f2 here?  Which piece should black capture with first?',
         Answer: ''
     }, {
         Level: 'Bishop',
         Module: 'Forks',
-        FEN: 'r1bqkb1r/pppp1ppp/2n5/4p3/2B1N3/5N2/PPPP1PPP/R1BQK2R',
+        FEN: 'r1bqkb1r/pppp1ppp/2n5/4p3/2B1N3/5N2/PPPP1PPP/R1BQK2R b - -',
         Question: 'Black to play.  Find a pawn fork.',
         Answer: ''
     }, {
@@ -787,7 +787,7 @@ var puzzles = [{
     }, {
         Level: 'Bishop',
         Module: 'Forks',
-        FEN: 'r1bqkbnr/1p1p1ppp/p1n5/2p1p3/B3P3/3Q1N2/PPPP1PPP/RNB1K2R',
+        FEN: 'r1bqkbnr/1p1p1ppp/p1n5/2p1p3/B3P3/3Q1N2/PPPP1PPP/RNB1K2R b - -',
         Question: 'Black to play.  Can you find a two-move combination ending in a pawn fork?',
         Answer: ''
     }, {
@@ -805,13 +805,13 @@ var puzzles = [{
     }, {
         Level: 'Bishop',
         Module: 'Forks',
-        FEN: 'r5k1/pp1Bppb1/8/3p3p/3Pq3/BP1n1R2/P6P/3Q1N1K',
+        FEN: 'r5k1/pp1Bppb1/8/3p3p/3Pq3/BP1n1R2/P6P/3Q1N1K b - -',
         Question: 'Black to play.  Does black have a way to fork the king and queen?  Look carefully!',
         Answer: ''
     }, {
         Level: 'Bishop',
         Module: 'Forks II',
-        FEN: 'r1bqk2r/pp1p1ppp/2p2n2/4B3/8/1P6/P1P1PPPP/R2QKB1R',
+        FEN: 'r1bqk2r/pp1p1ppp/2p2n2/4B3/8/1P6/P1P1PPPP/R2QKB1R b - -',
         Question: 'Black to play.  Find a queen fork.',
         Answer: ''
     }, {
@@ -829,7 +829,7 @@ var puzzles = [{
     }, {
         Level: 'Bishop',
         Module: 'Forks II',
-        FEN: 'rnbqk1nr/pppp1ppp/8/2b1p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR',
+        FEN: 'rnbqk1nr/pppp1ppp/8/2b1p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b - -',
         Question: 'Black to play.  What pieces are threatened by the white queen?  Can black defend all the threats?',
         Answer: ''
     }, {
@@ -841,13 +841,13 @@ var puzzles = [{
     }, {
         Level: 'Bishop',
         Module: 'Forks II',
-        FEN: '6k1/K1ppbp2/4p2p/1P6/Pq4PP/4Q3/4PP2/7R',
+        FEN: '6k1/K1ppbp2/4p2p/1P6/Pq4PP/4Q3/4PP2/7R b - -',
         Question: 'Black to play.  Find the winning move!',
         Answer: ''
     }, {
         Level: 'Bishop',
         Module: 'Openings',
-        FEN: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR',
+        FEN: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w - -',
         Question: 'Circle the squares that make up the centre of the board',
         Answer: ''
     }, {
@@ -865,19 +865,19 @@ var puzzles = [{
     }, {
         Level: 'Bishop',
         Module: 'Openings',
-        FEN: 'rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR',
+        FEN: 'rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b - -',
         Question: 'Black to play.  Between Bc5 and Qh4, which should black usually prefer.  Why?',
         Answer: ''
     }, {
         Level: 'Bishop',
         Module: 'Openings',
-        FEN: 'rnbqkbnr/pppp1ppp/8/8/3QP3/8/PPP2PPP/RNB1KBNR',
+        FEN: 'rnbqkbnr/pppp1ppp/8/8/3QP3/8/PPP2PPP/RNB1KBNR b - -',
         Question: 'Black to play.  Find the best tempo move for black to play here.  Hint: attack the white queen!',
         Answer: ''
     }, {
         Level: 'Bishop',
         Module: 'Openings',
-        FEN: 'r1bqk2r/ppp2ppp/2n2n2/6N1/2BP4/2P5/P4PPP/R1BQ1RK1',
+        FEN: 'r1bqk2r/ppp2ppp/2n2n2/6N1/2BP4/2P5/P4PPP/R1BQ1RK1 b - -',
         Question: 'Black to play.  How can black defend against threats on f7 and checks along the e-file?',
         Answer: ''
     }, {
@@ -895,7 +895,7 @@ var puzzles = [{
     }, {
         Level: 'Bishop',
         Module: 'Openings II',
-        FEN: 'rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR',
+        FEN: 'rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b - -',
         Question: 'Black to play and mate in one move.  Hint: Remember the two move checkmate!',
         Answer: ''
     }, {
@@ -907,13 +907,13 @@ var puzzles = [{
     }, {
         Level: 'Bishop',
         Module: 'Openings II',
-        FEN: 'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR',
+        FEN: 'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b - -',
         Question: 'Black to play.  What move creates the Sicilian Defense?',
         Answer: ''
     }, {
         Level: 'Bishop',
         Module: 'Openings II',
-        FEN: 'r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R',
+        FEN: 'r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b - -',
         Question: 'Black to play.  What move creates the Two Knight Defense?',
         Answer: ''
     }, {
@@ -943,25 +943,25 @@ var puzzles = [{
     }, {
         Level: 'Rook',
         Module: 'Mate Patterns',
-        FEN: 'rnb1k1nr/ppp2ppp/3b4/8/7q/2N3P1/PPPPP2P/R1BQKBNR',
+        FEN: 'rnb1k1nr/ppp2ppp/3b4/8/7q/2N3P1/PPPPP2P/R1BQKBNR b - -',
         Question: 'Find the best move for black in this position',
         Answer: ''
     }, {
         Level: 'Rook',
         Module: 'Mate Patterns',
-        FEN: 'r1b1k1nr/pp3ppp/2nb4/8/2B4q/1PN5/PBP1NPPP/R2Q1RK1',
+        FEN: 'r1b1k1nr/pp3ppp/2nb4/8/2B4q/1PN5/PBP1NPPP/R2Q1RK1 b - -',
         Question: 'Find the best move for black in this position',
         Answer: ''
     }, {
         Level: 'Rook',
         Module: 'Pins',
-        FEN: 'r1bqkbnr/pppp1ppp/2n5/8/4P3/2Q5/PPP2PPP/RNB1KBNR',
+        FEN: 'r1bqkbnr/pppp1ppp/2n5/8/4P3/2Q5/PPP2PPP/RNB1KBNR b - -',
         Question: 'Black to play.  Use a pin to win material',
         Answer: ''
     }, {
         Level: 'Rook',
         Module: 'Pins',
-        FEN: 'r1b1kbnr/1pp1qp1p/p1p3p1/8/4P3/5N2/PPPP1PPP/RNBQ1RK1',
+        FEN: 'r1b1kbnr/1pp1qp1p/p1p3p1/8/4P3/5N2/PPPP1PPP/RNBQ1RK1 b - -',
         Question: 'Black to play.  Is Qxe4 capturing the white pawn a good move? If not, why?',
         Answer : ''
     }, {
@@ -973,7 +973,7 @@ var puzzles = [{
     }, {
         Level: 'Rook',
         Module: 'Pins',
-        FEN: 'rnbqk2r/ppp2ppp/6n1/3N4/1b1P4/2N4P/PPP2PP1/R1BQKB1R',
+        FEN: 'rnbqk2r/ppp2ppp/6n1/3N4/1b1P4/2N4P/PPP2PP1/R1BQKB1R b - -',
         Question: 'Black to play.  Is Qxd5 capturing the white knight a good move? If not, why? ',
         Answer : ''
     }, {
@@ -997,7 +997,7 @@ var puzzles = [{
     }, {
         Level: 'Rook',
         Module: 'Skewers',
-        FEN: '7Q/8/8/5k2/3K4/8/p7/8',
+        FEN: '7Q/8/8/5k2/3K4/8/p7/8 b - -',
         Question: 'Black to play.  Use a skewer to win material',
         Answer: ''
     }, {
@@ -1021,8 +1021,8 @@ var puzzles = [{
     }, {
         Level: 'Rook',
         Module: 'Skewers',
-        FEN: 'r1b1r1k1/p1pp1ppp/1p6/8/26/1P3RP1/P1P2PRP/6K1',
-        Question: 'Black to play. Find the BEST move.  Hint: The BEST',
+        FEN: 'r1b1r1k1/p1pp1ppp/1p6/8/26/1P3RP1/P1P2PRP/6K1 b - -',
+        Question: 'Black to play. Find the BEST move.  Hint: the BEST.',
         Answer: ''
     }, {
         Level: 'Rook',
@@ -1039,13 +1039,13 @@ var puzzles = [{
     }, {
         Level: 'Rook',
         Module: 'Discovered Attack',
-        FEN: 'r1bqk2r/pppp2p1/8/2b1P3/5P1p/6P1/PP2N1P1/RN1Q1R1K',
+        FEN: 'r1bqk2r/pppp2p1/8/2b1P3/5P1p/6P1/PP2N1P1/RN1Q1R1K b - -',
         Question: 'Black to play and mate with discovered check',
         Answer: ''
     }, {
         Level: 'Rook',
         Module: 'Discovered Attack',
-        FEN: '1r5k/pnp2p1p/Q1p3p1/4q2P/8/3P4/PBP2P2/1K1R3R',
+        FEN: '1r5k/pnp2p1p/Q1p3p1/4q2P/8/3P4/PBP2P2/1K1R3R b - -',
         Question: 'Black to play.  This is a two move combination that ends in a discovered check. Hint: What would black\'s move be if the white bishop were not on b2?',
         Answer: ''
     }, {
@@ -1057,19 +1057,19 @@ var puzzles = [{
     }, {
         Level: 'Rook',
         Module: 'Discovered Attack',
-        FEN: '4k3/2Q3pr/1p5p/8/4PK2/1P3P2/1P4P1/8',
+        FEN: '4k3/2Q3pr/1p5p/8/4PK2/1P3P2/1P4P1/8 b - -',
         Question: 'Find the best move for black in this position.',
         Answer: ''
     }, {
         Level: 'Rook',
         Module: 'King & Queen Mates',
-        FEN: '8/7p/2q5/r7/8/6k1/8/3Q1RK1',
+        FEN: '8/7p/2q5/r7/8/6k1/8/3Q1RK1 b - -',
         Question: 'Black to play and mate in 1',
         Answer: ''
     }, {
         Level: 'Rook',
         Module: 'King & Queen Mates',
-        FEN: '8/8/8/8/3k4/8/3q4/K7',
+        FEN: '8/8/8/8/3k4/8/3q4/K7 b - -',
         Question: 'Black to play.  What move would you play as black, and why?',
         Answer: ''
     }, {
@@ -1093,7 +1093,7 @@ var puzzles = [{
     }, {
         Level: 'Rook',
         Module: 'King & Queen Mates',
-        FEN: '8/p7/8/4K3/7P/8/2k5/8',
+        FEN: '8/p7/8/4K3/7P/8/2k5/8 b - -',
         Question: 'Challenging question!  If black moves first in this position which side should win?',
         Answer: ''
     }, {
@@ -1111,37 +1111,37 @@ var puzzles = [{
     }, {
         Level: 'Rook',
         Module: 'King & Rook Mates',
-        FEN: '8/8/8/8/8/1r6/2k5/K7',
+        FEN: '8/8/8/8/8/1r6/2k5/K7 b - -',
         Question: 'Black to play.  What move stalemates the white king?  What move checkmates the white king?',
         Answer: ''
     }, {
         Level: 'Rook',
         Module: 'King & Rook Mates',
-        FEN: '6r1/8/8/3k4/8/8/4K3/8',
+        FEN: '6r1/8/8/3k4/8/8/4K3/8 b - -',
         Question: 'Black to play.  What is a good move to contain the white king?',
         Answer: ''
     }, {
         Level: 'Rook',
         Module: 'King & Rook Mates',
-        FEN: '8/8/8/8/3k4/6r1/5K2/8',
+        FEN: '8/8/8/8/3k4/6r1/5K2/8 b - -',
         Question: 'Black to play. Protect your rook and contain the white king.',
         Answer: ''
     }, {
         Level: 'Rook',
         Module: 'King & Rook Mates',
-        FEN: '8/8/8/8/4k3/2r5/1K6/8',
+        FEN: '8/8/8/8/4k3/2r5/1K6/8 b - -',
         Question: 'Black to play . White has just moved the king from a1 to b2.  What is black\'s best move?Hint : Don\'t give up your ground!',
         Answer: ''
     }, {
         Level: 'Queen',
         Module: 'King & Pawn Endgames',
-        FEN: '8/8/8/2k5/8/2K5/8/8',
+        FEN: '8/8/8/2k5/8/2K5/8/8 b - -',
         Question: 'Black to play.  Which side has the opposition?  Draw an X over the squares that the side with opposition controls.',
         Answer: ''
     }, {
         Level: 'Queen',
         Module: 'King & Pawn Endgames',
-        FEN: '2k5/8/8/8/8/8/8/2K5',
+        FEN: '2k5/8/8/8/8/8/8/2K5 b - -',
         Question: 'Black to play.  Which side has the distant opposition?  Why?',
         Answer: ''
     }, {
@@ -1153,13 +1153,13 @@ var puzzles = [{
     }, {
         Level: 'Queen',
         Module: 'King & Pawn Endgames',
-        FEN: '1k6/8/8/8/8/8/4K3/8',
+        FEN: '1k6/8/8/8/8/8/4K3/8 b - -',
         Question: 'If it is black to play how can black gain the opposition? If it is white to play how can white gain the opposition? ',
         Answer : ''
     }, {
         Level: 'Queen',
         Module: 'King & Pawn Endgames',
-        FEN: '8/8/8/8/4k3/4P3/5K2/8',
+        FEN: '8/8/8/8/4k3/4P3/5K2/8 b - -',
         Question: 'Black to play.  What should the result of this game be? In class activity: Try playing this position from both sides against a classmate.',
         Answer: ''
     }, {
@@ -1171,7 +1171,7 @@ var puzzles = [{
     }, {
         Level: 'Queen',
         Module: 'King & Pawn Endgames II',
-        FEN: 'k7/8/8/7p/8/2K5/8/8',
+        FEN: 'k7/8/8/7p/8/2K5/8/8 b - -',
         Question: 'Black to play. Can the white king catch the pawn before it promotes?',
         Answer: ''
     }, {
@@ -1189,19 +1189,19 @@ var puzzles = [{
     }, {
         Level: 'Queen',
         Module: 'King & Pawn Endgames II',
-        FEN: '8/8/8/4k3/p7/6K1/8/5B2',
+        FEN: '8/8/8/4k3/p7/6K1/8/5B2 b - -',
         Question: 'Black to play and win.  Hint: Think what defensive move white will try.  How can you block it?',
         Answer: ''
     }, {
         Level: 'Queen',
         Module: 'King & Pawn Endgames II',
-        FEN: '4k3/8/8/8/8/8/4P3/4K3',
+        FEN: '4k3/8/8/8/8/8/4P3/4K3 b - -',
         Question: 'Black to play. What should the result of this game be? In class activity: Try playing this position from both sides against a classmate.',
         Answer: ''
     }, {
         Level: 'Queen',
         Module: 'King & Pawn Endgames II',
-        FEN: '7k/8/8/8/8/4P3/8/4K3',
+        FEN: '7k/8/8/8/8/4P3/8/4K3 b - -',
         Question: 'Black to play. What should the result of this game be? In class activity: Try playing this position from both sides against a classmate.',
         Answer: ''
     }, {
@@ -1219,7 +1219,7 @@ var puzzles = [{
     }, {
         Level: 'Queen',
         Module: 'Deflections',
-        FEN: 'Q2q2k1/p3r1bp/5np1/5p2/PP6/6P1/2RP1PBP/1N4K1',
+        FEN: 'Q2q2k1/p3r1bp/5np1/5p2/PP6/6P1/2RP1PBP/1N4K1 b - -',
         Question: 'Black to play and win material using a deflection',
         Answer: ''
     }, {
@@ -1237,19 +1237,19 @@ var puzzles = [{
     }, {
         Level: 'Queen',
         Module: 'Deflections',
-        FEN: '6k1/q5pp/p1p2p2/3p1P1P/8/1P5R/P1P1rr2/3Q1R1K',
+        FEN: '6k1/q5pp/p1p2p2/3p1P1P/8/1P5R/P1P1rr2/3Q1R1K b - -',
         Question: 'Tough question!  Black to play and win. Hint: If the white rook on h3 were removed what could black do? How can black drive away the rook on h3? ',
         Answer: ''
     }, {
         Level: 'Queen',
         Module: 'Decoys',
-        FEN: 'r4rk1/2qpbp1p/p1b3pQ/1p2p3/4PnP1/P1NBB3/1PPP1P1P/R3R1K1',
+        FEN: 'r4rk1/2qpbp1p/p1b3pQ/1p2p3/4PnP1/P1NBB3/1PPP1P1P/R3R1K1 b - -',
         Question: 'Black to play.  How can black lure the white queen to a square to set up a royal fork? ',
         Answer : ''
     }, {
         Level: 'Queen',
         Module: 'Decoys',
-        FEN: 'r5k1/3p2p1/p1q2pP1/1p3n1Q/8/6BP/PP4RK/2r5',
+        FEN: 'r5k1/3p2p1/p1q2pP1/1p3n1Q/8/6BP/PP4RK/2r5 b - -',
         Question: 'Black to play.  How can black lure the white king to a square to set up a royal fork?',
         Answer : ''
     }, {
@@ -1261,7 +1261,7 @@ var puzzles = [{
     }, {
         Level: 'Queen',
         Module: 'Decoys',
-        FEN: '3r2k1/1p2R1p1/p1q2pQp/8/8/1P4P1/PB3P1P/3b2K1',
+        FEN: '3r2k1/1p2R1p1/p1q2pQp/8/8/1P4P1/PB3P1P/3b2K1 b - -',
         Question: 'Challenging question!  Black to play and checkmate in 3.  Hint: If the black bishop were on f3, black could checkmate in 1 with Rc1++.Find a way to get the bishop on f3 with tempo!',
         Answer: ''
     }, {
@@ -1279,13 +1279,13 @@ var puzzles = [{
     }, {
         Level: 'Queen',
         Module: 'Clearance Sacrifice',
-        FEN: 'r3r1k1/ppp2ppp/3qbnn1/4p1B1/Pb1pP1P1/1P1P1N1P/2P1BP2/R2Q1KNR',
+        FEN: 'r3r1k1/ppp2ppp/3qbnn1/4p1B1/Pb1pP1P1/1P1P1N1P/2P1BP2/R2Q1KNR b - -',
         Question: 'Black to play.  What clearance move could black make to protect the knight on f6 with the queen?',
         Answer : ''
     }, {
         Level: 'Queen',
         Module: 'Clearance Sacrifice',
-        FEN: '2r1r1k1/2p3pR/1p6/p1nPP3/2P5/2Nq1p2/PP6/2K1Q2R',
+        FEN: '2r1r1k1/2p3pR/1p6/p1nPP3/2P5/2Nq1p2/PP6/2K1Q2R b - -',
         Question: 'Black to play and win material using a clearance sacrifice.  Hint: What piece is blocking black from performing a royal fork?',
         Answer: ''
     }, {
@@ -1315,7 +1315,7 @@ var puzzles = [{
     }, {
         Level: 'Queen',
         Module: 'Tactical Combinations',
-        FEN: 'r1bqkb1r/pppp1ppp/5nn1/1B6/2N1P3/3P4/PPP2PPP/RNBQK2R',
+        FEN: 'r1bqkb1r/pppp1ppp/5nn1/1B6/2N1P3/3P4/PPP2PPP/RNBQK2R b - -',
         Question: 'Black to play.  Find a two move combination ending in a pawn fork.',
         Answer: ''
     }, {
@@ -1327,13 +1327,13 @@ var puzzles = [{
     }, {
         Level: 'Queen',
         Module: 'Tactical Combinations',
-        FEN: 'r1b1kbnr/pppp1Npp/8/8/2BnP3/8/PPPP1PqP/RNBQKR2',
+        FEN: 'r1b1kbnr/pppp1Npp/8/8/2BnP3/8/PPPP1PqP/RNBQKR2 b - -',
         Question: 'Black to play and win.  Black can win the queen or checkmate in 2 moves.',
         Answer: ''
     }, {
         Level: 'Queen',
         Module: 'Tactical Combinations',
-        FEN: 'r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N1P/PP2QPP1/R1B2RK1',
+        FEN: 'r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N1P/PP2QPP1/R1B2RK1 b - -',
         Question: 'Black to play and win.  Hint: Find a decoy move to get rid of a key defender.',
         Answer: ''
     }, {
@@ -1351,13 +1351,13 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Mating Patterns',
-        FEN: '8/5k2/8/8/8/7q/7b/7K',
+        FEN: '8/5k2/8/8/8/7q/7b/7K b - -',
         Question: 'Black to play and mate in 3',
         Answer: ''
     }, {
         Level: 'King',
         Module: 'Mating Patterns',
-        FEN: '8/8/8/8/1q6/1Pk5/P1P5/1K6',
+        FEN: '8/8/8/8/1q6/1Pk5/P1P5/1K6 b - -',
         Question: 'Black to play and mate in 2',
         Answer: ''
     }, {
@@ -1369,7 +1369,7 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Mating Patterns',
-        FEN: '8/1n3k2/5p2/8/8/8/1rr5/R4RK1',
+        FEN: '8/1n3k2/5p2/8/8/8/1rr5/R4RK1 b - -',
         Question: 'Black to play and mate in 3',
         Answer: ''
     }, {
@@ -1381,7 +1381,7 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Mating Patterns',
-        FEN: 'r3k1r1/pb6/1p6/8/8/P7/5PPP/5RK1',
+        FEN: 'r3k1r1/pb6/1p6/8/8/P7/5PPP/5RK1 b - -',
         Question: 'Black to play and mate in 5! ',
         Answer: ''
     }, {
@@ -1405,13 +1405,13 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Attack on Uncastled King',
-        FEN: 'rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR',
+        FEN: 'rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b - -',
         Question: 'Black to play.  Black can either win the queen or checkmate by force here. Hint: Find a way to expose the e1 - h4 diagonal.',
         Answer: ''
     }, {
         Level: 'King',
         Module: 'Attack on Uncastled King',
-        FEN: 'rnbqk2r/ppp2ppp/3b4/8/2P1n3/P5P1/1P2PP1P/RNBQKBNR',
+        FEN: 'rnbqk2r/ppp2ppp/3b4/8/2P1n3/P5P1/1P2PP1P/RNBQKBNR b - -',
         Question: 'Black to play and win material.  Hint: Find a way to decoy the white king away from the queen\'s defence, and then exploit that!',
         Answer: ''
     }, {
@@ -1423,7 +1423,7 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Attack on Uncastled King II',
-        FEN: 'r1b1kbnr/1pp1qppp/p1p5/8/4P3/5N2/PPPP1PPP/RNBQ1RK1',
+        FEN: 'r1b1kbnr/1pp1qppp/p1p5/8/4P3/5N2/PPPP1PPP/RNBQ1RK1 b - -',
         Question: 'Black to play.  Is taking the pawn on e4 a good idea?  Why or why not?',
         Answer: ''
     }, {
@@ -1441,7 +1441,7 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Attack on Uncastled King II',
-        FEN: '3r1k1r/p1p1qppp/b4n2/3B4/1bPQ4/1PN3P1/P3PP1P/R1B1K2R',
+        FEN: '3r1k1r/p1p1qppp/b4n2/3B4/1bPQ4/1PN3P1/P3PP1P/R1B1K2R b - -',
         Question: 'Black to play and win material.  Hint: The pawn on c4 can be considered pinned. Why?',
         Answer: ''
     }, {
@@ -1453,7 +1453,7 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Attack on Uncastled King II',
-        FEN: 'r1b1k2r/ppppqppp/2n5/4n3/1PP2B2/5N2/1P1NPPPP/R2QKB1R',
+        FEN: 'r1b1k2r/ppppqppp/2n5/4n3/1PP2B2/5N2/1P1NPPPP/R2QKB1R b - -',
         Question: 'Black to play and mate in 1',
         Answer: ''
     }, {
@@ -1465,7 +1465,7 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Attack on castled King',
-        FEN: 'r4rk1/ppp2ppp/8/3P4/2P1Nnq1/5bB1/PPP2PPP/R3QRK1',
+        FEN: 'r4rk1/ppp2ppp/8/3P4/2P1Nnq1/5bB1/PPP2PPP/R3QRK1 b - -',
         Question: 'Black to play and mate in 2',
         Answer: ''
     }, {
@@ -1489,7 +1489,7 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Attack on castled King',
-        FEN: 'r1br2k1/ppp2pp1/5q1p/4p3/4Pn2/N1PB4/P1PQ1PPP/R4RK1',
+        FEN: 'r1br2k1/ppp2pp1/5q1p/4p3/4Pn2/N1PB4/P1PQ1PPP/R4RK1 b - -',
         Question: 'Black to play and win the white queen in 3 moves.A tough one! Hint: Gain some tempo by threatening mate ',
         Answer: ''
     }, {
@@ -1507,7 +1507,7 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Attack on castled King II',
-        FEN: 'r2qk2r/ppp2p2/2nbp3/3p3p/3P2p1/P1N1PP2/1PP1B1PP/R2Q1RK1',
+        FEN: 'r2qk2r/ppp2p2/2nbp3/3p3p/3P2p1/P1N1PP2/1PP1B1PP/R2Q1RK1 b - -',
         Question: 'Black to play.  What move begins an unstoppable mate in 4?',
         Answer: ''
     }, {
@@ -1531,25 +1531,25 @@ var puzzles = [{
     }, {
         Level: 'King',
         Module: 'Defensive Puzzles',
-        FEN: 'rnbqk1nr/pppp1ppp/8/2b1p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR',
+        FEN: 'rnbqk1nr/pppp1ppp/8/2b1p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR b - -',
         Question: 'Black to play.  What is white threatening?  What moves can black play to defend against this threat?',
         Answer : ''
     }, {
         Level: 'King',
         Module: 'Defensive Puzzles',
-        FEN: '8/5R2/3nk3/3p4/8/8/3PK1B1/8',
+        FEN: '8/5R2/3nk3/3p4/8/8/3PK1B1/8 b - -',
         Question: 'Black to play.  White has just played Rxf7.  How should black recapture on f7?  Why? ',
         Answer: ''
     }, {
         Level: 'King',
         Module: 'Defensive Puzzles',
-        FEN: 'r1bq1rk1/ppp1nppp/1b1p1n1B/8/2B1P3/1PP3Q1/P3NPPP/RN2K2R',
+        FEN: 'r1bq1rk1/ppp1nppp/1b1p1n1B/8/2B1P3/1PP3Q1/P3NPPP/RN2K2R b - -',
         Question: 'Black to play.  What is white threatening?  What is the best defensive move for black in this position?',
         Answer: ''
     }, {
         Level: 'King',
         Module: 'Defensive Puzzles',
-        FEN: 'r2q1r2/pbpn1ppk/1p1bp3/8/3P4/2P2N2/PP3PPP/RNBQK2R',
+        FEN: 'r2q1r2/pbpn1ppk/1p1bp3/8/3P4/2P2N2/PP3PPP/RNBQK2R b - -',
         Question: 'Black to play.  What move is white threatening?  How can black stop white\'s attack in is tracks? ',
         Answer : ''
     }, {
