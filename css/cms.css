@@ -1,160 +1,157 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
 }
 
 html {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 11in;
-    width: 8.5in;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    background-image: url('../img/cmsback.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-
+  margin: 0;
+  padding: 0;
+  height: 11in;
+  width: 8.5in;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  background-image: url('../img/cmsback.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .row p {
-    padding: 0;
-    margin: 0 0.1in 0 0;
-    width: 1.5in;
-    height: 1.75in;
-    font-weight: 400;
-    font-size: 14.5px;
+  padding: 0;
+  margin: 0 0.1in 0 0;
+  width: 1.5in;
+  height: 1.75in;
+  font-weight: 400;
+  font-size: 14.5px;
 }
 
 #topbar {
-    height: 0.41in;
-    background-color: #FFD053;
-    margin-bottom: 0.38in;
+  height: 0.41in;
+  background-color: #FFD053;
+  margin-bottom: 0.38in;
 }
 
 #topbar~* {
-    margin: 0 0.3in;
+  margin: 0 0.3in;
 }
 
 #header {
-    height: 1.5in;
-    display: flex;
-    border-bottom: 0.25px solid grey;
-    align-items: center;
-    justify-content: center;
+  height: 1.5in;
+  display: flex;
+  border-bottom: 0.25px solid grey;
+  align-items: center;
+  justify-content: center;
 }
 
-#header > * {
-    margin-top: .3in;
+#header>* {
+  margin-top: .3in;
 }
 
 #logo {
-    margin: 0;
-    padding: 0;
-    height: 1.39in;
-    width: 0.96in;
+  margin: 0;
+  padding: 0;
+  height: 1.39in;
+  width: 0.96in;
 }
 
 #titles {
-    width: 5in;
-    margin: 0;
-    padding: 0;
+  width: 5in;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
 h2,
 h3 {
-    padding: 0;
-    margin: 0;
-    margin-left: 0.35in;
-    font-weight:600;
+  padding: 0;
+  margin: 0;
+  margin-left: 0.35in;
+  font-weight: 600;
 }
 
 h2:first-of-type {
-    margin-top: 0.09in;
-    margin-bottom: 0;
-    font-size: 26px;
+  margin-top: 0.09in;
+  margin-bottom: 0;
+  font-size: 26px;
 }
 
 h1 {
-    margin-bottom: 0.08in;
-    font-size: 42px;
-    font-weight: 700;
+  margin-bottom: 0.08in;
+  font-size: 42px;
+  font-weight: 700;
 }
 
 h2 span {
-    font-weight: 400;
+  font-weight: 400;
 }
 
-h2 span ~ span {
-    margin: 0;
-    padding: 0;
+h2 span~span {
+  margin: 0;
+  padding: 0;
 }
 
 #piece {
-    width: 1.55in;
-    height: 1.59in;
-    margin: 5px;
-    padding: 0;
+  width: 1.55in;
+  height: 1.59in;
+  margin: 5px;
+  padding: 0;
 }
 
 #content {
   margin-top: 0.6in;
-  margin-bottom: 80px;
+  margin-bottom: 65px;
 }
 
 span {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .row {
-    display: flex;
-    margin-bottom: 0.58in;
+  display: flex;
+  margin-bottom: 0.58in;
 }
 
 .row span {
-    font-weight: 700;
-    margin-right: 0.2in;
+  font-weight: 700;
+  margin-right: 0.2in;
 }
 
 span~span {
-    margin-left: 0.22in;
+  margin-left: 0.22in;
 }
 
 .row:last-of-type {
-    margin-bottom: 0.5in;
+  margin-bottom: 0.5in;
 }
 
 .chessboard {
-    width: 2.3in;
-    margin-left: 15px;
+  width: 2.3in;
+  margin-left: 15px;
 }
 
 #footer {
-    border-top: 0.25px solid grey;
-    height: 0.45in;
-    display: flex;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-
+  border-top: 0.25px solid grey;
+  height: 0.45in;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 #footer span {
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
 
 #footer p {
-
-    font-size: 16px;
-    padding: 0;
-    display: block;
+  font-size: 16px;
+  padding: 0;
+  display: block;
 }
 
 .white-to-move:after {

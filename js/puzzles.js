@@ -72,7 +72,7 @@ var puzzles = [{
         "Level": "Pawn",
         "Module": "Rook Moves",
         "FEN": "r7/8/P7/8/R7/8/8/8 b - -",
-        "Question": "Which of white's pieces are we allowed to capture with our black rook? Only the Pawn, only the Rook, or both?",
+        "Question": "Which of white's pieces are we allowed to capture with our black rook? Only the pawn, only the rook, or both?",
         "Answer": "pawn"
     },
     {
@@ -156,7 +156,7 @@ var puzzles = [{
         "Level": "Pawn",
         "Module": "Knight Moves",
         "FEN": "8/R1R1R1R1/3B3P/8/3P3P/PBP1P1P1/8/8 b - -",
-        "Question": "Imagine that we had to place a knight on this board. On what square would that knight attack the most white pieces?",
+        "Question": "Imagine that we had to place a black knight on this board. On what square would that knight attack the most white pieces?",
         "Answer": "f5"
     },
     {
@@ -554,7 +554,7 @@ var puzzles = [{
     {
         "Level": "Rook",
         "Module": "Checkmate in Two",
-        "FEN": "2r2r1k/6pp/pqbpQb1N/1p2n3/4P3/2P1B3/PP3PPP/R4RK1 w - -",
+        "FEN": "2r2r1k/6pp/pqbpQ2N/1p2b3/4P3/2P1B3/PP3PPP/R4RK1 w - -",
         "Question": "Should we take black's queen on b6, or do we have a better move here?",
         "Answer": "Qg8+"
     },
@@ -1458,73 +1458,73 @@ var puzzles = [{
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King',
+        Module: 'Attack on Castled King',
         FEN: 'r4rk1/2p2ppp/pq1pb3/1p6/4P3/P4PQP/1PP3P1/R1BR2K1',
         Question: 'White to play and win material. ',
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King',
+        Module: 'Attack on Castled King',
         FEN: 'r4rk1/ppp2ppp/8/3P4/2P1Nnq1/5bB1/PPP2PPP/R3QRK1 b - -',
         Question: 'Black to play and mate in 2',
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King',
+        Module: 'Attack on Castled King',
         FEN: 'r1bq1rk1/pp1n1ppp/2nb4/8/3NPPQ1/2N1B3/P1P1B1PP/R4RK1',
         Question: 'White to play and win material ',
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King',
+        Module: 'Attack on Castled King',
         FEN: '3r1rnk/pp1n3p/1qp2pp1/5NQ1/4P3/1B1R4/PP3PPP/2R3K1',
         Question: 'White to play and mate',
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King',
+        Module: 'Attack on Castled King',
         FEN: 'r4rk1/pp3ppp/2p2n2/3p4/3P4/5P2/qPPQPP1P/2KR2R1',
         Question: 'White to play and mate in 4',
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King',
+        Module: 'Attack on Castled King',
         FEN: 'r1br2k1/ppp2pp1/5q1p/4p3/4Pn2/N1PB4/P1PQ1PPP/R4RK1 b - -',
         Question: 'Black to play and win the white queen in 3 moves.A tough one! Hint: Gain some tempo by threatening mate ',
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King II',
+        Module: 'Attack on Castled King II',
         FEN: 'r1bq1rk1/p1p1bppp/4p3/8/3P4/2PB1N2/PP2QPPP/R4RK1',
         Question: 'White to play and win material',
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King II',
+        Module: 'Attack on Castled King II',
         FEN: 'r4rk1/1p2qpp1/p1n1pn1p/6N1/1P6/P3P3/1BQ2PP1/R4R1K',
         Question: 'White to play.  What is the best move for white?  Which important defender can be eliminated?',
         Answer : ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King II',
+        Module: 'Attack on Castled King II',
         FEN: 'r2qk2r/ppp2p2/2nbp3/3p3p/3P2p1/P1N1PP2/1PP1B1PP/R2Q1RK1 b - -',
         Question: 'Black to play.  What move begins an unstoppable mate in 4?',
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King II',
+        Module: 'Attack on Castled King II',
         FEN: '1r1q1rk1/p2b1pp1/n1p1p3/b3P1N1/3P4/8/P2B1PPP/R2Q1RK1',
         Question: 'White to play.  Can white begin an unstoppable mating attack or does the black king have a way to escape?',
         Answer : ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King II',
+        Module: 'Attack on Castled King II',
         FEN: '1br2rk1/pb3pp1/1pq1pn1B/8/3P4/2NB2PP/PPPQPP2/2RR2K1',
         Question: 'White to play.  Is Qg5 a good move or white?  Why or why not? ',
         Answer: ''
     }, {
         Level: 'King',
-        Module: 'Attack on castled King II',
+        Module: 'Attack on Castled King II',
         FEN: '5rk1/pp4pp/4p3/2R3Q1/3n4/6qr/P1P2PPP/5RK1',
         Question: 'Genius level puzzle! Show why white cannot capture the black queen on g3 without losing material or being mated.',
         Answer: ''
