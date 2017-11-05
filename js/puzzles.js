@@ -23,7 +23,7 @@ var puzzles = [{
         "Level": "Pawn",
         "Module": "Pawn Moves",
         "FEN": "8/8/8/8/8/3P4/3P4/8 w - -",
-        "Question": "What is it called when two pawns are stacked in the rank like this?  This is an important concept as we will see later.",
+        "Question": "What is it called when two pawns are stacked in a file like this?  This is an important concept as we will see later.",
         "Answer": "Doubled pawns."
     },
     {
@@ -79,7 +79,7 @@ var puzzles = [{
         "Level": "Pawn",
         "Module": "Rook Moves",
         "FEN": "8/8/8/8/8/8/4R3/4R3 w - -",
-        "Question": "What do we call two rooks doubled in one rank like this? This is a powerful formation that we'll see in a lot of our games.",
+        "Question": "What do we call two rooks doubled in one file like this? This is a powerful formation that we'll see in a lot of our games.",
         "Answer": "A battery."
     },
     {
@@ -254,35 +254,35 @@ var puzzles = [{
         "Level": "Knight",
         "Module": "Impossible Positions",
         "FEN": "rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR w KQkq -",
-        "Question": "What is wrong with this starting position? Carefully check every piece.",
+        "Question": "Did we set the board up properly? Carefully check every piece.",
         "Answer": "King/Queen are on the wrong square."
     },
     {
         "Level": "Knight",
         "Module": "Impossible Positions",
-        "FEN": "r1bqkb1r/pppp1ppp/2n2n2/4p1B1/4P3/2N2N2/PPPP1PPP/R2QKB1R b KQkq -",
-        "Question": "Why is this position impossible?",
+        "FEN": "r1bq1rk1/ppp2ppp/2n2n2/2bpp1B1/4P3/1PNP1N1P/PBP2PP1/R2QK2R b KQq - 0 1",
+        "Question": "Both sides are developing quickly, but why is this position impossible?",
         "Answer": "Bishop"
     },
     {
         "Level": "Knight",
         "Module": "Impossible Positions",
-        "FEN": "r2qr1k1/pppbbppp/2np1n2/1B6/3NP3/2N1B1P1/PPP2PBP/R2Q1RK1 w KQkq -",
+        "FEN": "r2qr1k1/pppbbppp/2nppn2/1B6/3NP3/2N3PN/PPP2PBP/R2Q1RK1 w KQkq -",
         "Question": "Something is not quite right with these minor pieces. What is impossible about them?",
         "Answer": "Extra Bishop"
     },
     {
         "Level": "Knight",
         "Module": "Impossible Positions",
-        "FEN": "r1bq1rk1/p1p2ppp/2p2n2/p2pp3/1bPP4/P1N2N2/1P2PPPP/R1BQ1RK1 b KQkq -",
-        "Question": "Explain why we could never get this position in a real game. ",
+        "FEN": "2rq1rk1/pb2bpp1/1pn1pn1p/3p4/8/P1P1PNB1/KPQNBPPP/R4RK1 b - -",
+        "Question": "The position looks fine except for one thing that is out of place. Circle what shouldn't be on this board.",
         "Answer": "Extra Pawn on black side."
     },
     {
         "Level": "Knight",
         "Module": "Impossible Positions",
-        "FEN": "rnb1k2r/ppp1qppp/5n2/1B6/8/P1P2N2/5PPP/R1BQK2R b KQkq -",
-        "Question": "Examine the pieces and describe what makes this setup impossible.",
+        "FEN": "r2k1bnr/ppp2ppp/4b3/4p1B1/4P3/2N2N2/PPn1BPPP/R3K2R w KQkq -",
+        "Question": "Black has just taken white's pawn and is attacking the king and rook, but why is this position against the rules?",
         "Answer": "Both kings in check."
     },
     {
@@ -394,7 +394,7 @@ var puzzles = [{
         "Level": "Knight",
         "Module": "Chess Notation",
         "FEN": "r1bB1rk1/pppn1pbp/6N1/8/2P3n1/5N2/PP3PPP/R2QKB1R b KQkq -",
-        "Question": "Play out this game by Bobby Fischer then circle the  pieces that are out of place: 1.d4 g6 2.c4 Nf6 3.Nc3 Bg7 4.e4 O-O 5.Bg5 d6 6.Nf3 Nbd7 7.e5 dxe5 8.dxe5 Ng4 9.Nd5 Ngxe5 10.Nxe7+ Kh8 11.Nxg6+ hxg6 12.Bxd8",
+        "Question": "This time we have a game by Bobby Fischer. Once again, circle the incorrect pieces: 1.d4 g6 2.c4 Nf6 3.Nc3 Bg7 4.e4 O-O 5.Bg5 d6 6.Nf3 Nbd7 7.e5 dxe5 8.dxe5 Ng4 9.Nd5 Ngxe5 10.Nxe7+ Kh8 11.Nxg6+ hxg6 12.Bxd8",
         "Answer": "Kg8, Ng4"
     },
     {
@@ -408,14 +408,14 @@ var puzzles = [{
         "Level": "Knight",
         "Module": "Chess Notation",
         "FEN": "8/R7/5k2/8/r2R4/8/R7/5K2 w - -",
-        "Question": "There are many rooks, but circle the one that moves with the notation Rdxa4. It's important to tell similar pieces apart when you record your tournament games.",
-        "Answer": "rook on d4"
+        "Question": "There are three ways to capture the black rook. Write the notation for all three captures. It's important to tell similar pieces apart when you record your tournament games.",
+        "Answer": ""
     },
     {
         "Level": "Knight",
         "Module": "Chess Notation",
-        "FEN": "6k1/8/8/8/2p5/N7/3N4/6K1 w - -",
-        "Question": "What is the notation if the knight on a3 captures the pawn on c4?",
+        "FEN": "8/8/8/8/8/4k3/3p4/2NK4 b - -",
+        "Question": "What is the notation if the black pawn captures the knight and promotes to a queen?",
         "Answer": "Naxc4"
     },
     {
@@ -541,7 +541,7 @@ var puzzles = [{
         "Level": "Bishop",
         "Module": "ABC's of the opening",
         "FEN": "r1b1kb1r/ppp2ppp/2n5/3q4/3pn3/5N2/PPP2PPP/RNBQR1K1 w kq - 0 8",
-        "Question": "We're down a knight and black just played Qxd5. Play a move as white that activates a piece and wins back material.",
+        "Question": "We're down a knight and black just played Qxd5. Play a move as white that activates a minor piece, attacks the black queen, and wins back material.",
         "Answer": "Nc3"
     },
     {
